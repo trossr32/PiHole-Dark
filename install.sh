@@ -14,7 +14,7 @@ while true; do
     read -p "Install LKD70's Dark Theme now? (Y/n): " yn
     case $yn in
         [Yy]* ) 
-	    git clone https://github.com/lkd70/PiHole-Dark.git temp
+	    git clone https://github.com/trossr32/PiHole-Dark.git temp
             rm -f admin/style/vendor/AdminLTE.min.css
             cp temp/admin/style/vendor/AdminLTE.min.css admin/style/vendor/AdminLTE.min.css
             cp temp/admin/style/vendor/AdminLTE.css admin/style/vendor/AdminLTE.css
